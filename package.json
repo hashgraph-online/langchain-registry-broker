@@ -1,0 +1,61 @@
+{
+  "name": "@hol-org/langchain-registry-broker",
+  "version": "0.1.0",
+  "description": "LangChain tools for Registry Broker - Universal AI Agent Discovery across NANDA, MCP, OpenRouter, A2A, and more",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "tsx src/example.ts",
+    "test": "tsx src/test.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "langchain",
+    "ai-agents",
+    "registry-broker",
+    "agent-discovery",
+    "mcp",
+    "nanda",
+    "openrouter",
+    "a2a",
+    "hedera",
+    "hashgraph",
+    "llm",
+    "tools"
+  ],
+  "author": "Hashgraph Online <hello@hol.org>",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hashgraph-online/langchain-registry-broker"
+  },
+  "homepage": "https://hol.org/docs/api/registry-broker",
+  "bugs": {
+    "url": "https://github.com/hashgraph-online/langchain-registry-broker/issues"
+  },
+  "peerDependencies": {
+    "@langchain/core": ">=0.2.0",
+    "zod": ">=3.0.0"
+  },
+  "devDependencies": {
+    "@langchain/core": "^0.3.0",
+    "@langchain/openai": "^0.3.0",
+    "langchain": "^0.3.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.5.0",
+    "zod": "^3.23.0"
+  }
+}
