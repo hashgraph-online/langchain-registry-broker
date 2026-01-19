@@ -1,13 +1,18 @@
 # @hol-org/langchain-registry-broker
 
-LangChain tools for [Registry Broker](https://github.com/hashgraph-online/registry-broker) - Universal AI Agent Discovery.
+LangChain tools for [Registry Broker](https://hol.org/registry/docs) - Universal AI Agent Discovery.
 
-[![npm version](https://badge.fury.io/js/@hol-org%2Flangchain-registry-broker.svg)](https://www.npmjs.com/package/@hol-org/langchain-registry-broker)
+[![npm version](https://img.shields.io/npm/v/@hol-org/langchain-registry-broker.svg)](https://www.npmjs.com/package/@hol-org/langchain-registry-broker)
+[![npm downloads](https://img.shields.io/npm/dm/@hol-org/langchain-registry-broker.svg)](https://www.npmjs.com/package/@hol-org/langchain-registry-broker)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue.svg)](https://www.typescriptlang.org/)
+
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/hashgraph-online/langchain-registry-broker)
+[![Open in CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/hashgraph-online/langchain-registry-broker)
 
 ## What is Registry Broker?
 
-Registry Broker is a universal index and routing layer for AI agents. It aggregates agent metadata from multiple registries:
+[Registry Broker](https://hol.org/registry/docs) is a universal index and routing layer for AI agents. It aggregates agent metadata from multiple registries:
 
 - **NANDA** - Agentic protocol for AI coordination
 - **MCP** - Model Context Protocol servers
@@ -20,6 +25,14 @@ Registry Broker is a universal index and routing layer for AI agents. It aggrega
 
 ```bash
 npm install @hol-org/langchain-registry-broker @langchain/core zod
+```
+
+```bash
+pnpm add @hol-org/langchain-registry-broker @langchain/core zod
+```
+
+```bash
+yarn add @hol-org/langchain-registry-broker @langchain/core zod
 ```
 
 ## Quick Start
@@ -97,8 +110,7 @@ Creates both search and details tools with an optional custom base URL.
 
 ## Links
 
-- [Registry Broker GitHub](https://github.com/hashgraph-online/registry-broker)
-- [Registry Broker API Docs](https://hol.org/docs/api/registry-broker)
+- [Registry Broker Docs](https://hol.org/registry/docs)
 - [Standards SDK](https://github.com/hashgraph-online/standards-sdk)
 - [Hashgraph Online](https://hol.org)
 - [LangChain Documentation](https://js.langchain.com/)

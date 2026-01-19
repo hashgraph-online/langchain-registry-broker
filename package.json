@@ -42,7 +42,7 @@
     "type": "git",
     "url": "https://github.com/hashgraph-online/langchain-registry-broker"
   },
-  "homepage": "https://hol.org/docs/api/registry-broker",
+  "homepage": "https://hol.org/registry/docs",
   "bugs": {
     "url": "https://github.com/hashgraph-online/langchain-registry-broker/issues"
   },
